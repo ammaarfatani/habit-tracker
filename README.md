@@ -1,16 +1,54 @@
-# React + Vite
+# ✅ Habit Tracker Dashboard – React & Firebase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **Habit Tracker Dashboard** built using **React and Firebase**, designed to help users build consistency by tracking daily habits, maintaining streaks, and visualizing progress over time through charts.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🔐 **Authentication**
+  - Email & Password signup/login
+  - Secure protected routes
+- ➕ **Habit Management (CRUD)**
+  - Add new habits (name, frequency, start date)
+  - Edit & delete habits
+- 📅 **Daily Check-ins**
+  - Mark habits as complete/incomplete per day
+  - Automatic reset for the next day
+- 📊 **Progress Tracking**
+  - Weekly & monthly progress charts
+  - Completion percentage per habit
+  - Streak tracking
+- 📈 **Dashboard Analytics**
+  - Best-performing habit
+  - Overall completion stats
+- 📱 **Responsive Design**
+  - Optimized for desktop, tablet & mobile
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React, Vite, Tailwind CSS
+- **Backend:** Firebase Firestore
+- **Authentication:** Firebase Auth
+- **Charts:** Recharts / Chart.js
+- **Deployment:** Firebase Hosting
+
+---
+
+🔮 Future Enhancements
+
+🔔 Habit reminders & notifications
+
+📆 Calendar heatmap view
+
+🤝 Social habit sharing
+
+🏆 Gamification (badges & rewards)
+
+🌙 Dark mode toggle
+
+▶️ Live Demo
+
+🌐 https://react-native-course-19fb8.web.app/
